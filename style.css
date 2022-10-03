@@ -1,22 +1,40 @@
 
+h1 {
 	margin: 0;
-	padding: 1px;
+	padding: 0px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  font-family: 'Notable';
+  font-size: 60px;
 }
 
+h2 {
+  margin: 0;
+	padding: 0px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  font-family: 'Notable';
+  font-size: 20px;
+}
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
+  font-family: 'Notable';
+  font-size: 20px;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -30,11 +48,11 @@ table {
 	border-spacing: 0;
 }
 
-html{
+html {
     font-size: 10px;
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -45,16 +63,17 @@ body{
 }
 
 div{
+    /* border: 2px solid green; */
     margin: 0 10%;
 }
 
-#image{
-     width: 100%;
-height: auto;
-max-width: 625px;
-margin-left: auto;
-margin-right: auto;
-display: block;
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .box1{
@@ -73,10 +92,12 @@ display: block;
     color: #AAAAAA;;    
 }
 
-h3{
-    font-size: 5rem;
+h3 {
     color: white;
     border-bottom: 1px solid white;
+    font-family: 'Notable';
+    font-size: 40px;
+  
 }
 
 .Spencers-life {
@@ -86,15 +107,12 @@ h3{
 p, h4, h3{
     text-align: left;
     line-height: 1.5;
-  color: #AAAAAA;
+    color: #AAAAAA;
 }
 #obituary-link{
     color: green;
 }
 
-.film{
-    margin: 2rem auto;
-}
 .image-size{
     height: 300px;
     width: 200px;
@@ -107,9 +125,6 @@ a{
 .box4{
     box-sizing: border-box;
     display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly; 
   }
-
-
-
