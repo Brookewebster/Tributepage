@@ -1,0 +1,115 @@
+
+	margin: 0;
+	padding: 1px;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+div{
+    margin: 0 10%;
+}
+
+#image{
+     width: 100%;
+height: auto;
+max-width: 625px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.box1{
+    background-color: black;
+    color: #AAAAAA;
+    font-size: 5rem;
+    text-transform: uppercase;
+    
+}
+.box2{
+    background-color: black;
+    color: #AAAAAA;
+}
+.box3{
+    background-color: black;
+    color: #AAAAAA;;    
+}
+
+h3{
+    font-size: 5rem;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.Spencers-life {
+    margin: 2rem auto;
+}
+
+p, h4, h3{
+    text-align: left;
+    line-height: 1.5;
+  color: #AAAAAA;
+}
+#obituary-link{
+    color: green;
+}
+
+.film{
+    margin: 2rem auto;
+}
+.image-size{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+a{
+  color:blue;
+}
+
+.box4{
+    box-sizing: border-box;
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: space-evenly; 
+  }
+
+
+
