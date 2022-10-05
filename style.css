@@ -1,34 +1,38 @@
-
 h1 {
-	margin: 0;
+	margin: 0px;
 	padding: 0px;
-	border: 0;
+	border: 0px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
   font-family: 'Notable';
-  font-size: 60px;
+  font-size: 65px;
+  
 }
 
 h2 {
-  margin: 0;
+  margin: 0px;
 	padding: 0px;
-	border: 0;
+	border: 0px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
   font-family: 'Notable';
-  font-size: 20px;
+  font-size: 30px;
+  
+  
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+ 
 }
 body {
 	line-height: 1;
   font-family: 'Notable';
   font-size: 20px;
+ 
 }
 
 html{
@@ -46,33 +50,27 @@ body{
 }
 
 div{
-    /* border: 2px solid green; */
     margin: 0 10%;
 }
 
 #image{
 width: 100%;
-height: auto;
+height: 100%;
 max-width: 625px;
 margin-left: auto;
 margin-right: auto;
 display: block;
+filter: grayscale(100%);
+transform: rotate(270deg);
 }
 
-.box1{
-    background-color: black;
-    color: #AAAAAA;
-    font-size: 5rem;
-    text-transform: uppercase;
-    
-}
 .box2{
     background-color: black;
     color: #AAAAAA;
 }
 .box3{
     background-color: black;
-    color: #AAAAAA;;    
+    color: #AAAAAA;; 
 }
 
 h3 {
@@ -80,6 +78,7 @@ h3 {
     border-bottom: 1px solid white;
     font-family: 'Notable';
     font-size: 40px;
+    border-bottom: 1px solid white;
   
 }
 
@@ -91,7 +90,8 @@ p, h4, h3{
     text-align: left;
     line-height: 1.5;
     color: #AAAAAA;
-}
+ }
+
 #obituary-link{
     color: green;
 }
@@ -101,15 +101,13 @@ p, h4, h3{
     width: 250px;
     object-fit: cover;
 }
-a{
-  color: blue;
-}
+
 
 .box4{
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
   }
 
 .box5{
@@ -117,4 +115,18 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly; 
+    border-bottom: 1px solid white;
+ 
   }
+footer h3{
+  font-family: 'Notable';
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+  
+  
